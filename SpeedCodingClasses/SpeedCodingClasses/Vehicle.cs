@@ -8,5 +8,11 @@ namespace SpeedCodingClasses
 {
     public class Vehicle
     {
+        public int numOWheels { get; set; }
+
+        public virtual string Horn()
+        {
+            throw new NotImplementedException();
+        }      
     }
 }
